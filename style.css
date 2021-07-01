@@ -1,12 +1,12 @@
 main{
   background-color: lightblue;
   text-align: center;
-  margin: center;
+  margin: auto;
 }
+
 #title{
   color: red;
   font-family: arial, sans-serif;
-
   
 }
 figure {
@@ -15,13 +15,13 @@ figure {
 
 
 .title {
-		
+	// this is for a class
 }
 
 img {
 	max-width: 100%;	
-  //margin: 0 auto;
-  display: block;
+	margin: 0 auto;
+	display: block;
   //height: auto;
 }
 
@@ -31,10 +31,21 @@ img {
 }
 
 .img-caption{
-		
+	// this is for a class	
 }
 	
 #tribute-info{
-		margin: auto;
-    list-style-position: inside;
+  list-style-position: inside;
+  width: 50%;
+  //text-align: justify;
+  //border-style: solid;
+  margin: auto;
+  padding-bottom: 1px;
+ }
+
+#dates-list{
+  //border-style: solid;
+  width: 80%;
+  text-align: justify;
+  margin: auto;
 }
